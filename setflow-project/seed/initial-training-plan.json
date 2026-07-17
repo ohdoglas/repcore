@@ -1,0 +1,1842 @@
+{
+  "schemaVersion": 1,
+  "seedVersion": "2026.07.17-1",
+  "program": {
+    "name": "Plano Douglas — Semanas 1 e 2",
+    "description": "Hipertrofia com progressão de carga, amplitude controlada e boa recuperação.",
+    "cycleLengthWeeks": 2,
+    "initialActiveWeek": 1,
+    "rules": {
+      "warmupSetsCountAsEffective": false,
+      "targetRirMin": 1,
+      "targetRirMax": 2,
+      "maxIntensifierTechniquesPerSession": 1,
+      "intensifierLastSetOnly": true,
+      "progressionMethod": "DOUBLE_PROGRESSION"
+    },
+    "weeks": [
+      {
+        "ordinal": 1,
+        "name": "Semana 1",
+        "workouts": [
+          {
+            "weekday": 1,
+            "name": "Costas — Treino 1",
+            "focus": "Largura das dorsais e controle escapular",
+            "warmup": [
+              "Mobilidade de ombros e escápulas",
+              "1 a 2 séries leves de puxada",
+              "Alongamento dinâmico sem permanência prolongada"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Pull down na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Puxada alta aberta com pegada semi-supinada",
+                    "aliases": [
+                      "Wide Grip",
+                      "Puxador largo 82 cm"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": "Puxador largo de aproximadamente 82 cm"
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Remada máquina alternada com pegada neutra",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": true,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Serrote com halter",
+                    "aliases": [
+                      "Serrote haltere alternado"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": true,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Pullover na máquina ou no cross",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "DROP_SET",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weekday": 2,
+            "name": "Peito — Treino 1",
+            "focus": "Região superior e média do peitoral",
+            "warmup": [
+              "Mobilidade dos ombros",
+              "Aquecimento leve do manguito rotador",
+              "2 séries progressivas antes do primeiro supino"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Supino inclinado com halteres",
+                    "aliases": [
+                      "Supino inclinado hatere"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 6,
+                    "repMax": 10,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Supino reto livre",
+                    "aliases": [
+                      "Supino livre"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 6,
+                    "repMax": 10,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Supino sentado declinado na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Cross baixo para cima",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Fly na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "DROP_SET",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weekday": 3,
+            "name": "Pernas — Treino 1",
+            "focus": "Quadríceps, com manutenção de posteriores e glúteos",
+            "warmup": [
+              "5 a 10 minutos de escada ou bicicleta",
+              "Mobilidade de tornozelos, quadris e joelhos",
+              "Séries leves e progressivas no primeiro exercício"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Agachamento no Smith",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 6,
+                    "repMax": 10,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Leg press 45 graus",
+                    "aliases": [
+                      "Leg press 45º"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Cadeira extensora",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "REST_PAUSE",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Cadeira flexora",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 90,
+                  "defaultSeconds": 75
+                },
+                "exercises": [
+                  {
+                    "name": "Cadeira abdutora",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 12,
+                    "repMax": 20,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 90,
+                      "defaultSeconds": 75
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 6,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 4,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Panturrilha em pé ou no leg press",
+                    "aliases": [],
+                    "plannedEffectiveSets": 4,
+                    "repMin": 8,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weekday": 4,
+            "name": "Braços — Treino 1",
+            "focus": "Bíceps e tríceps em superséries antagonistas",
+            "warmup": [
+              "Mobilidade de punhos, cotovelos e ombros",
+              "1 série leve de bíceps e 1 série leve de tríceps"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "SUPERSET",
+                "title": "Supersérie 1",
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "notes": null,
+                "exercises": [
+                  {
+                    "name": "Tríceps na barra W ou na polia",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  },
+                  {
+                    "name": "Rosca direta com barra W",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "SUPERSET",
+                "title": "Supersérie 2",
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "notes": null,
+                "exercises": [
+                  {
+                    "name": "Tríceps testa no banco",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  },
+                  {
+                    "name": "Rosca inclinada a 45 graus",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "SUPERSET",
+                "title": "Supersérie 3",
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "notes": null,
+                "exercises": [
+                  {
+                    "name": "Tríceps francês com corda",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  },
+                  {
+                    "name": "Rosca martelo alternada",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": true,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": "Finalização — tríceps",
+                "plannedRounds": 2,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Tríceps na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 2,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "DROP_SET",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": "Finalização — bíceps",
+                "plannedRounds": 2,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Bíceps na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 2,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "DROP_SET",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              }
+            ],
+            "notes": "Aplicar dropset somente na última série de uma das máquinas; máximo de uma intensificadora no treino."
+          },
+          {
+            "weekday": 5,
+            "name": "Ombros — Treino 1",
+            "focus": "Deltoide lateral e posterior",
+            "warmup": [
+              "Mobilidade de ombros e escápulas",
+              "Aquecimento leve do manguito rotador",
+              "1 a 2 séries leves de desenvolvimento"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Desenvolvimento sentado com halteres",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 6,
+                    "repMax": 10,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 4,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Elevação lateral sentada",
+                    "aliases": [],
+                    "plannedEffectiveSets": 4,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Elevação lateral inclinada",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 12,
+                    "repMax": 20,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": "Peito próximo aos joelhos"
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 4,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Fly invertido na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 4,
+                    "repMin": 12,
+                    "repMax": 20,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "DROP_SET",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Encolhimento para trapézio no cross",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ordinal": 2,
+        "name": "Semana 2",
+        "workouts": [
+          {
+            "weekday": 1,
+            "name": "Costas — Treino 2",
+            "focus": "Espessura das costas e remadas",
+            "warmup": [
+              "Mobilidade de ombros e escápulas",
+              "1 a 2 séries leves de remada",
+              "Preparação específica para lombar antes da remada curvada"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Remada curvada com barra e pegada supinada",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 6,
+                    "repMax": 10,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Remada máquina sentada com pegada pronada",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Remada com triângulo e pegada neutra",
+                    "aliases": [
+                      "Puxador fechado 31,5 cm",
+                      "Close Pronated/Neutral Grip"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Puxada alta com puxador médio semi-supinado",
+                    "aliases": [
+                      "Medium Supinated Grip",
+                      "Puxador médio 56,5 cm"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": "Puxador de aproximadamente 56,5 cm"
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 2,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Puxada alta com barra e pegada supinada",
+                    "aliases": [],
+                    "plannedEffectiveSets": 2,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 6,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 2,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Pullover no cross com barra ou corda",
+                    "aliases": [],
+                    "plannedEffectiveSets": 2,
+                    "repMin": 12,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "REST_PAUSE",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weekday": 2,
+            "name": "Peito — Treino 2",
+            "focus": "Estabilidade em máquinas e tensão contínua",
+            "warmup": [
+              "Mobilidade dos ombros",
+              "Aquecimento leve do manguito rotador",
+              "2 séries progressivas no primeiro exercício"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Supino inclinado sentado na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Supino reto com halteres",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 6,
+                    "repMax": 10,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Supino declinado na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Cross press baixo",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Fly na máquina com amplitude controlada",
+                    "aliases": [
+                      "Fly na máquina"
+                    ],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "DROP_SET",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weekday": 3,
+            "name": "Pernas — Treino 2",
+            "focus": "Posteriores, glúteos e trabalho unilateral",
+            "warmup": [
+              "5 a 10 minutos de escada ou bicicleta",
+              "Mobilidade de quadris, tornozelos e joelhos",
+              "Séries leves no stiff e no hack"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Stiff ou levantamento terra romeno",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 6,
+                    "repMax": 10,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 180,
+                  "defaultSeconds": 150
+                },
+                "exercises": [
+                  {
+                    "name": "Agachamento Hack",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 180,
+                      "defaultSeconds": 150
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Cadeira ou mesa flexora",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "REST_PAUSE",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Agachamento búlgaro ou afundo",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": true,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Elevação pélvica",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 6,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 4,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Panturrilha sentada",
+                    "aliases": [],
+                    "plannedEffectiveSets": 4,
+                    "repMin": 10,
+                    "repMax": 20,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "weekday": 4,
+            "name": "Braços — Treino 2",
+            "focus": "Variação de ângulos e pegadas",
+            "warmup": [
+              "Mobilidade de punhos, cotovelos e ombros",
+              "1 série leve de bíceps e 1 série leve de tríceps"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "SUPERSET",
+                "title": "Supersérie 1",
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "notes": null,
+                "exercises": [
+                  {
+                    "name": "Tríceps na corda",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  },
+                  {
+                    "name": "Rosca Scott com barra W ou máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "SUPERSET",
+                "title": "Supersérie 2",
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "notes": null,
+                "exercises": [
+                  {
+                    "name": "Tríceps francês unilateral no cross",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": true,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  },
+                  {
+                    "name": "Rosca alternada em pé com supinação",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": true,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "SUPERSET",
+                "title": "Supersérie 3",
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "notes": null,
+                "exercises": [
+                  {
+                    "name": "Tríceps testa com barra W",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  },
+                  {
+                    "name": "Rosca martelo com corda",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 0,
+                      "maxSeconds": 0,
+                      "defaultSeconds": 0
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": "Finalização — tríceps",
+                "plannedRounds": 2,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Tríceps máquina ou mergulho assistido",
+                    "aliases": [],
+                    "plannedEffectiveSets": 2,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "REST_PAUSE",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": "Finalização — bíceps",
+                "plannedRounds": 2,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Rosca na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 2,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "REST_PAUSE",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              }
+            ],
+            "notes": "Aplicar rest-pause somente na última série de uma das máquinas; máximo de uma intensificadora no treino."
+          },
+          {
+            "weekday": 5,
+            "name": "Ombros — Treino 2",
+            "focus": "Variação de resistência para deltoide lateral e posterior",
+            "warmup": [
+              "Mobilidade de ombros e escápulas",
+              "Aquecimento leve do manguito rotador",
+              "Séries leves antes do desenvolvimento"
+            ],
+            "blocks": [
+              {
+                "order": 1,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 120,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Desenvolvimento de ombros na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 12,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 120,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 4,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Elevação lateral na máquina com pegada neutra",
+                    "aliases": [],
+                    "plannedEffectiveSets": 4,
+                    "repMin": 10,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 3,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 90,
+                  "defaultSeconds": 75
+                },
+                "exercises": [
+                  {
+                    "name": "Elevação lateral unilateral no cross",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 12,
+                    "repMax": 20,
+                    "repsPerSide": true,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 90,
+                      "defaultSeconds": 75
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 4,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 4,
+                "rest": {
+                  "minSeconds": 60,
+                  "maxSeconds": 120,
+                  "defaultSeconds": 90
+                },
+                "exercises": [
+                  {
+                    "name": "Fly invertido unilateral ou máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 4,
+                    "repMin": 12,
+                    "repMax": 20,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 60,
+                      "maxSeconds": 120,
+                      "defaultSeconds": 90
+                    },
+                    "allowedTechnique": "DROP_SET",
+                    "techniqueLastSetOnly": true,
+                    "notes": null
+                  }
+                ]
+              },
+              {
+                "order": 5,
+                "type": "STANDARD",
+                "title": null,
+                "plannedRounds": 3,
+                "rest": {
+                  "minSeconds": 90,
+                  "maxSeconds": 150,
+                  "defaultSeconds": 120
+                },
+                "exercises": [
+                  {
+                    "name": "Encolhimento com halteres ou na máquina",
+                    "aliases": [],
+                    "plannedEffectiveSets": 3,
+                    "repMin": 8,
+                    "repMax": 15,
+                    "repsPerSide": false,
+                    "rest": {
+                      "minSeconds": 90,
+                      "maxSeconds": 150,
+                      "defaultSeconds": 120
+                    },
+                    "allowedTechnique": "NONE",
+                    "techniqueLastSetOnly": false,
+                    "notes": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "legacyReference": {
+    "purpose": "Aliases e evidência de variações anteriores; não substitui o plano atual.",
+    "notableAliases": [
+      {
+        "canonical": "Puxada alta aberta com pegada semi-supinada",
+        "aliases": [
+          "Wide Grip",
+          "Puxador largo 82 cm"
+        ]
+      },
+      {
+        "canonical": "Puxada alta com puxador médio semi-supinado",
+        "aliases": [
+          "Medium Supinated Grip",
+          "Puxador médio 56,5 cm"
+        ]
+      },
+      {
+        "canonical": "Remada com triângulo e pegada neutra",
+        "aliases": [
+          "Puxador fechado 31,5 cm",
+          "Close Pronated/Neutral Grip"
+        ]
+      },
+      {
+        "canonical": "Supino inclinado com halteres",
+        "aliases": [
+          "Supino inclinado hatere"
+        ]
+      }
+    ]
+  }
+}

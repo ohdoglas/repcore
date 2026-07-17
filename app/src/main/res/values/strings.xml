@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Repcore</string>
+    <string name="app_logo_content_description">Logo do Repcore</string>
+    <string name="home_title">Treine mais, digite menos.</string>
+    <string name="home_subtitle">Arquitetura inicial pronta para conectar plano, treino ativo e histórico.</string>
+    <string name="home_primary_action">Ver treinos</string>
+</resources>

@@ -1,0 +1,31 @@
+{
+  "project": "SetFlow",
+  "generatedAt": "2026-07-17",
+  "files": [
+    "AGENTS.md",
+    "README.md",
+    "docs/00-product-vision.md",
+    "docs/01-prd.md",
+    "docs/02-mvp-scope.md",
+    "docs/03-user-stories.md",
+    "docs/04-user-flows.md",
+    "docs/05-business-rules.md",
+    "docs/06-data-model.md",
+    "docs/07-technical-architecture.md",
+    "docs/08-ui-ux-specification.md",
+    "docs/09-backlog-and-roadmap.md",
+    "docs/10-orchestrator-protocol.md",
+    "docs/11-executor-protocol.md",
+    "docs/12-testing-strategy.md",
+    "docs/13-definition-of-done.md",
+    "docs/14-release-checklist.md",
+    "docs/adr/ADR-001-native-android.md",
+    "docs/adr/ADR-002-jetpack-compose.md",
+    "docs/adr/ADR-003-local-first.md",
+    "docs/adr/ADR-004-room-database.md",
+    "references/Plano_Treinos_Douglas_Semanas_1_e_2.txt",
+    "references/Treinos_douglas_legado.docx",
+    "seed/README.md",
+    "seed/initial-training-plan.json"
+  ]
+}
